@@ -1,6 +1,5 @@
 'use strict';
 
-
 module.exports.data = {
   rules: [{
     'id': 1,
@@ -21,7 +20,22 @@ module.exports.data = {
       'counter': 10
     }],
     'ruleMatches': [1, 3],
-    'subscribers': ['foo', 'bar', './mailer']
+    'subscribers': {
+      foo: {
+        path: 'foo',
+        args: 'foo-bar'
+      },
+      bar: {
+
+        args: 'bar'
+      },
+      mailer: {
+        path: './mailer',
+        args: {
+          toEmail: 'foo@foobar.com'
+        }
+      }
+    }
   }],
   ruleCriterias: [{
     'id': 1,
