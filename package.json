@@ -1,0 +1,26 @@
+{
+  "name": "ifttt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "lint": "node_modules/.bin/eslint ./lib",
+    "build": "make all",
+    "test": "node_modules/.bin/mocha test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^2",
+    "istanbul": "^0.4.4",
+    "mocha": "^3.0.2",
+    "supertest": "^2.0.0"
+  },
+
+  "dependencies": {
+    "async": "^2.0.1",
+    "debug": "^2.2.0",
+    "try-require": "^1.2.1"
+  }
+}

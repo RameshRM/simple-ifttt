@@ -1,0 +1,23 @@
+{
+  "ruleCrtierias": [{
+    "id": 1,
+    "data": {
+      "os_type": "Android",
+      "locale": "en-US",
+      "wifi": true
+    }
+  }, {
+    "id": 2,
+    "data": {
+      "os_type": "iOS",
+      "site_id": "0"
+    }
+  }, {
+    "id": 3,
+    "data": {
+      "os_type": "Amazon Kindle",
+      "site_id": "0"
+
+    }
+  }]
+}

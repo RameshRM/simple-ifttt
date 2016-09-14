@@ -1,0 +1,31 @@
+{
+  "rule": {
+    "id": 1,
+    "name": "foo-bar",
+    "effective": "",
+    "expires": "",
+    "ruleDtl": [{
+      "name": "wads",
+      "threshold": 1000,
+      "compares": "eq"
+    }, {
+      "name": "atf",
+      "threshold": 1000,
+      "compares": "eq"
+    }],
+    "ruleMatches": [1, 2]
+  },
+  "ruleCrtierias": [{
+    "ruleCriteriaId": 1,
+    "ruleCriteriaData": {
+      "os_type": "Android",
+      "site_id": "0"
+    }
+  }, {
+    "ruleCriteriaId": 2,
+    "ruleCriteriaData": {
+      "os_type": "iOS",
+      "site_id": "0"
+    }
+  }]
+}

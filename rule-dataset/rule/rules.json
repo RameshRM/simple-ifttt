@@ -1,0 +1,23 @@
+{
+  "rules": [{
+    "id": 1,
+    "name": "foo-bar",
+    "effective": "10/1/2016",
+    "expires": "12/1/2016",
+    "ruleDetail": [{
+      "name": "wAds",
+      "threshold": {
+        "max": 1000
+      }
+    }, {
+      "name": "ATF",
+      "threshold": {
+        "max": 1000
+
+      },
+      "counter": 10
+    }],
+    "ruleMatches": [1, 3],
+    "subscribers": ["foo", "bar", "./mailer"]
+  }]
+}
